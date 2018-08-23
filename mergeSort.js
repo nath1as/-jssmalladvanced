@@ -14,6 +14,7 @@ function mergeSort(array) {
 
   return merge(subArray1, subArray2);
 }
+
 function merge(array1, array2) {
   var copy1 = array1.slice();
   var copy2 = array2.slice();
